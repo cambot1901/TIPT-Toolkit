@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
             </head>
             <body>
                 <div className="container">
-                    {/* Left-Hand Menu */}
+                    {/* Left-Hand Menu  */}
                     <div className="menu">
                         {/* Logo */}
                         <div className="logo">
