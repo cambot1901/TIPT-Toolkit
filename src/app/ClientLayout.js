@@ -39,19 +39,6 @@ export default function ClientLayout({ children }) {
 
     return (
         <div className="container">
-            <Script
-                src="https://www.googletagmanager.com/gtag/js?id=G-RJC174XHZS"
-                strategy="afterInteractive"
-            />
-            <Script id="google-analytics" strategy="afterInteractive">
-                {`
-                    window.dataLayer = window.dataLayer || [];
-                    function gtag(){dataLayer.push(arguments);}
-                    gtag('js', new Date());
-                    gtag('config', 'G-RJC174XHZS');
-                `}
-            </Script>
-
             {/* Menu */}
             <div className="menu">
                 <div className="logo">
