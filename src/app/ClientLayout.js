@@ -21,7 +21,7 @@ export default function ClientLayout({ children }) {
 
     const handleLogin = (e) => {
         e.preventDefault();
-        if (username === 'admin' && password === 'X36n80ac') {
+        if (username === 'admin' && password === 'admin') {
             setIsAuthenticated(true);
             document.cookie = "admin_auth=true; path=/";
             setShowLoginForm(false);
